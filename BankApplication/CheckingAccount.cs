@@ -58,7 +58,6 @@ namespace BankApplication
         {
             if (base.Debit(amount))
             {
-                //Balance -= Fee;
                 return true;
             }
             return false;
