@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BankApplication</name>
+    </assembly>
+    <members>
+        <member name="T:BankApplication.Account">
+            <summary>
+            Base class Account
+            </summary>
+        </member>
+        <member name="P:BankApplication.Account.Balance">
+            <summary>
+            Proterty to initialize the account balance and validate it
+            </summary>
+        </member>
+        <member name="M:BankApplication.Account.Credit(System.Decimal)">
+            <summary>
+            Method to add an amount to the balance and validate the amount
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BankApplication.Account.Debit(System.Decimal)">
+            <summary>
+            Method to subtract an amount from the balance and validate the amount
+            </summary>
+            <param name="amount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BankApplication.CheckingAccount">
+            <summary>
+            Class for the checking account that inherits from base class Account
+            </summary>
+        </member>
+        <member name="P:BankApplication.CheckingAccount.Fee">
+            <summary>
+            Property that initializes the withdrawl fee and validates it
+            </summary>
+        </member>
+        <member name="M:BankApplication.CheckingAccount.Credit(System.Decimal)">
+            <summary>
+            Method that overrides credit method from base class
+            </summary>
+            <param name="amount"></param>
+        </member>
+        <member name="M:BankApplication.CheckingAccount.Debit(System.Decimal)">
+            <summary>
+            Method that overrides debit method from base class
+            </summary>
+            <param name="amount"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BankApplication.AccountTest">
+            <summary>
+            Test class given by the professor
+            </summary>
+        </member>
+        <member name="T:BankApplication.SavingsAccount">
+            <summary>
+            Class for the savings account that inherits from base class Account
+            </summary>
+        </member>
+        <member name="P:BankApplication.SavingsAccount.Interest">
+            <summary>
+            Property that initializes the interest rate and validates it
+            </summary>
+        </member>
+        <member name="M:BankApplication.SavingsAccount.CalculateInterest">
+            <summary>
+            Method to calculate the balance after interest has been applied
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
