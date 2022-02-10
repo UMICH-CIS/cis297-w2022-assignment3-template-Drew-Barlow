@@ -4,14 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/// <summary>
-/// This program uses inheritance hierarchy and polymorphism to create a banking app
-/// </summary>
-/// <Student>Drew Barlow</Student>
-/// <Class>CIS297</Class>
-/// <Semester>Winter 2022</Semester>
+
 namespace BankApplication
 {
+    /// <summary>
+    /// This program uses inheritance hierarchy and polymorphism to create a banking app
+    /// </summary>
+    /// <Student>Drew Barlow</Student>
+    /// <Class>CIS297</Class>
+    /// <Semester>Winter 2022</Semester>
+    
     /// <summary>
     /// Test class given by the professor
     /// </summary>
